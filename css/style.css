@@ -1,0 +1,1268 @@
+body {
+	background: url(../images/master.png) repeat;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#header {
+	background: url(../images/master.png) repeat-x top left;
+	margin: 0;
+	padding: 32px 0 5px;
+}
+#header div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#header div:first-child {
+	padding: 0 0 9px;
+	overflow: hidden;
+}
+#header div a.logo {
+	display: block;
+	float: left;
+	   
+}
+#header div a.logo img {
+	border: 0;
+	display: block;
+}
+#header div form {
+	float: right;
+	margin: 34px 10px 0 0;
+	overflow: hidden;
+	padding: 0;
+}
+#header div form input {
+	background: url(../images/interface.png) no-repeat;
+	border: 0;
+	display: block;
+	float: left;
+	height: 24px;
+	   
+}
+#header div form #search {
+	background-position: -228px -411px;
+	line-height: 24px;
+	padding: 0 0 0 10px;
+	width: 208px;
+}
+#header div form #searchBtn {
+	background-position: -446px -411px;
+	cursor: pointer;
+	width: 43px;
+}
+#header .navigation {
+	background: black;
+	padding: 0 10px;
+	width: 940px;
+}
+#header .navigation > ul:before, #header .navigation > ul:after {
+	content: "";
+	display: table;
+}
+#header .navigation > ul:after {
+	clear: both;
+}
+#header .navigation > ul {
+	background: gray;
+	   
+}
+#header .navigation > ul > li {
+	display: block;
+	float: left;
+	list-style:    ;
+	margin: 0 27px;
+	position: relative;
+	padding: 0;
+}
+#header .navigation > ul > li > a {
+	color: black;
+	display: block;
+	  
+	font-size: 14px;
+	font-weight: normal;
+	height: 52px;
+	line-height: 56px;
+	margin: 0;
+	padding: 0 15px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration:    ;
+}
+#header .navigation > ul > li > a:hover {
+	color: #e2e2e2;
+}
+#header .navigation > ul > li.booking > a {
+	color : black ;
+	 
+}
+#header .navigation > ul > li.booking > a:hover {
+	color: white ;
+}
+#header .navigation ul ul {
+	left: 99999px;
+	   
+	position: absolute;
+	top: 52px;
+	z-index: 5;
+}
+
+#header .navigation ul ul li {
+	border-top: 1px solid #fff;
+	display: block;
+  
+	width: 180px;
+}
+#header .navigation ul ul li:first-child {
+	border: 0;
+}
+#header .navigation ul ul li a {
+	background: black;
+	color: #fff;
+	display: block;
+	height: 23px;
+	
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 23px;
+	text-transform: capitalize;
+}
+#header .navigation ul ul li a:hover {
+	background: 	#e9e9e9;
+	color: #7a7a7a;
+}
+#body {
+	min-height: 800px;
+	margin: 0;
+	padding: 0 0 6px;
+}
+#body .header {
+	
+	background: black;
+	margin: 0 auto 6px;
+	padding: 0;
+	width: 940px;
+}
+#body .header ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 28px 0 36px;
+}
+#body .header ul li {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 20px;
+	overflow: hidden;
+	padding: 0;
+	width: 300px;
+}
+#body .header ul li:first-child {
+	margin: 0;
+}
+#body .header ul li .figure {
+	display: block;
+	float: left;
+	margin: 2px 18px 0 7px;
+	padding: 0;
+}
+#body .header ul li .figure:hover {
+	opacity: 0.8;
+}
+#body .header ul li img {
+	border: 0;
+	display: block;
+	   
+}
+#body .header ul li div {
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 0;
+	width: 200px;
+}
+#body .header ul li div h3 {
+	color:black;
+	  
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 14px;
+	text-transform: capitalize;
+}
+#body .header ul li div h3 a {
+	color: black;
+
+}
+#body .header ul li div h3 a:hover {
+	color: #fcac00;
+}
+#body .header ul li div p {
+	color: #7a7a7a;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 24px;
+	   
+}
+#body .header ul li div p a {
+	color: #7a7a7a;
+	text-decoration: underline;
+}
+#body .header ul li div p a:hover {
+	color: #4c4c4c;
+}
+#body .body {
+	
+	background: #fff;
+	margin: 0 auto 6px;
+	overflow: hidden;
+	padding: 0;
+	width: 940px;
+}
+#body .body img {
+	display: block;
+	float: left;
+	   
+}
+#body .body div {
+	float: left;
+	margin: 0;
+	padding: 59px 38px 0 0;
+	width: 462px;
+}
+#body .body div h1 {
+	color: #7a7a7a;
+	font-size: 62px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 0;
+	padding: 0 0 25px;
+	text-align: right;
+	text-transform: uppercase;
+}
+#body .body div h1 span {
+	display: block;
+	font-size: 38px;
+	   
+}
+#body .body div p {
+	color: #7a7a7a;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 24px;
+	padding: 0 0 38px 14px;
+	text-align: right;
+}
+#body .body div p a {
+	color: #fcac00;
+	
+}
+#body .body div p a:hover {
+	color: #f3be4b;
+}
+#body .body div > a {
+	background: url(../images/interface.png) no-repeat 0 -530px;
+	color: #fff;
+	display: block;
+	font-size: 24px;
+	font-weight: normal;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 0 0 60px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 402px;
+}
+
+#body .footer {
+	background: #e9e9e9;
+	margin: 0;
+	padding: 20px 0;
+}
+#body .footer > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 940px;
+}
+#body .footer div h2 {
+	background: url(../images/border.png) repeat-x 0 12px;
+	color: #7a7a7a;
+	font-size: 21px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#body .footer div h2 span {
+	background: #e9e9e9;
+	display: inline;
+	margin: 0;
+	padding: 0 10px;
+}
+#body .footer div ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body .footer div ul li {
+	float: left;
+	margin: 0 0 0 20px;
+	overflow: hidden;
+	padding: 20px 0;
+	width: 450px;
+}
+#body .footer div ul li div {
+	float: left;	   
+	width: 375px;
+}
+#body .footer div ul li div h3 {
+	color: #7a7a7a;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 18px 10px;
+	padding: 0;
+	text-transform: capitalize;
+}
+
+#body .footer div ul li div h3 a:hover {
+	color: #fcac00;
+}
+#body .footer div ul li div p {
+	color: #7a7a7a;
+	  
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 10px;
+}
+#body .footer div ul li div p a {
+	color: #7a7a7a;
+	text-decoration: underline;
+}
+#body .footer div ul li div p a:hover {
+	color: #4c4c4c;
+}
+#body .content {
+	background: #fff url(../images/shadow.png) no-repeat 640px center;
+	margin: 0 auto;
+	min-height: 973px;
+	overflow: hidden;
+	padding: 0;
+	width: 940px;
+}
+#body .content .section {
+	float: left;
+	margin: 0;
+	padding: 0 0 40px;
+	width: 640px;
+}
+#body .content .section p {
+	color: #7a7a7a;
+	line-height: 24px;
+	   
+}
+#body .content .section p a {
+	color: #7a7a7a;
+	text-decoration: underline;
+}
+#body .content .section p a:hover {
+	color: #4c4c4c;
+}
+#body .content .section .breadcrumb {
+	background: url(../images/border.png) repeat-x bottom left;
+	margin: 0 0 20px 38px;
+	overflow: hidden;
+	padding: 26px 0 23px;
+	width: 560px;
+}
+#body .content .section .breadcrumb span {
+	color: #7a7a7a;
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin: 0;
+	padding: 2px 0 0;
+}
+#body .content .section .breadcrumb ul {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body .content .section .breadcrumb ul li {
+	background: url(../images/separator2.png) no-repeat center left;
+	display: block;
+	float: left;
+	   
+}
+#body .content .section .breadcrumb ul li a {
+	color: #fcac00;
+	display: block;
+	font-size: 12px;
+	margin: 0;
+	padding: 2px 5px 3px 10px;
+	text-transform: capitalize;
+}
+#body .content .section .breadcrumb ul li a:hover {
+	color: #f3be4b;
+}
+#body .content .section div h2 {
+	color: #7a7a7a;
+	 
+	font-size: 21px;
+	font-weight: normal;
+	   
+	text-transform: capitalize;
+}
+#body .content .section .company {
+	margin: 0;
+	padding: 0 40px;
+}
+#body .content .section .company div {
+	margin: 0;
+	overflow: hidden;
+	padding: 25px 0 0;
+}
+#body .content .section .company div img {
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	display: block;
+	float: left;
+	margin: 0 30px 0 0;
+	padding: 4px;
+}
+#body .content .section div h3 {
+	color: #7a7a7a;
+	  
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	   
+	text-transform: capitalize;
+}
+#body .content .section .company > h3 {
+	padding: 25px 0 15px;
+}
+#body .content .section .company div h3 {
+	padding: 0 0 15px;
+}
+#body .content .section .company > p {
+	padding: 0 0 20px;
+}
+
+#body .content .section .team h2 {
+	padding: 0 0 0 40px;
+}
+#body .content .section .team div {
+	margin: 0;
+	overflow: hidden;
+	padding: 25px 40px 20px;
+}
+
+#body .content .section .team a.figure img {
+	border: 1px solid #dfdfdf;
+	display: block;
+	padding: 5px;
+}
+#body .content .section .team div a.figure {
+	float: left;
+	margin: 0 40px 0 0;
+}
+#body .content .section .team span {
+	color: #7a7a7a;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 15px;
+}
+#body .content .section .team ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0
+}
+#body .content .section .team ul li {
+	display: block;
+	float: left;
+	margin: 0 0 0 40px;
+	padding: 0;
+	width: 262px;
+}
+#body .content .section .team ul li a.figure {
+	margin: 0 0 15px;
+}
+
+#body .content .section .gallery h2 {
+	padding: 0 0 0 40px;
+}
+#body .content .section .gallery ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 25px 0 0;
+}
+#body .content .section .gallery ul li {
+	display: block;
+	float: left;
+
+	margin: 0 0 0 40px;
+	padding: 0 0 20px;
+	width: 262px;
+}
+#body .content .section .gallery ul li h4 {
+	color: #7a7a7a;
+	  
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 15px;
+	text-transform: capitalize;
+}
+#body .content .section .gallery ul li h4 a:hover {
+	color: #fcac00;
+}
+#body .content .section .gallery a.figure {
+	display: block;
+	margin: 0 0 15px;
+	padding: 0;
+}
+#body .content .section .gallery a.figure:hover {
+	opacity: 0.8;
+}
+#body .content .section .gallery a.figure img {
+	border: 1px solid #dfdfdf;
+	display: block;
+	padding: 5px;
+}
+#body .content .section .gallery > a.figure {
+	margin: 25px 0 10px 40px;
+}
+#body .content .section .gallery div {
+	margin: 0;
+	overflow: hidden;
+	padding: 0 40px;
+}
+#body .content .section .gallery div span {
+	display: block;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+}
+#body .content .section .gallery div span span {
+	color: #7a7a7a;
+	display: block;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 10px;
+}
+#body .content .section .gallery div > span {
+	padding: 6px 0 0;
+	width: 75px;
+}
+#body .content .section .gallery div span a {
+	background: url(../images/interface.png) no-repeat;
+	display: block;
+	float: left;
+	height: 18px;
+	   
+	text-indent: -99999px;
+	width: 18px;
+}
+#body .content .section .gallery div span a.prev {
+	background-position: 0 -120px;
+}
+#body .content .section .gallery div span a.prev:hover {
+	background-position: -24px -120px;
+}
+#body .content .section .gallery div span a.next {
+	background-position: 0 -151px;
+}
+#body .content .section .gallery div span a.next:hover {
+	background-position: -24px -151px;
+}
+#body .content .section .gallery div p {
+	float: right;
+	padding: 0;
+	width: 440px;
+}
+#body .content .section .services {
+	margin: 0;
+	padding: 0 40px;
+}
+#body .content .section .services ul {
+	margin: 0;
+	padding: 25px 0 0;
+}
+#body .content .section .services ul li {
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 24px;
+}
+#body .content .section .services ul li a.figure {
+	display: block;
+	float: left;
+	margin: 5px 0 0;
+	padding: 0;
+}
+#body .content .section .services ul li a.figure:hover {
+	opacity: 0.8;
+}
+#body .content .section .services ul li a.figure img {
+	border: 1px solid #dfdfdf;
+	display: block;
+	padding: 5px;
+}
+#body .content .section .services ul li div {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 39px;
+	width: 339px;
+}
+#body .content .section .services ul li div h3 {
+	padding: 0 0 15px;
+}
+#body .content .section .promo h2 {
+	padding: 0 0 0 40px;
+}
+#body .content .section .promo ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 25px 0 0;
+}
+#body .content .section .promo ul li {
+	display: block;
+	float: left;
+	margin: 0 0 0 40px;
+	padding: 0;
+	width: 266px;
+}
+#body .content .section .promo ul li a {
+	display: block;
+	   
+}
+#body .content .section .promo ul li a:hover {
+	opacity: 0.8;
+}
+#body .content .section .promo ul li a img {
+	border: 0;
+}
+#body .content .section .contact, #body .content .section .booking {
+	margin: 0;
+	padding: 30px 40px;
+}
+#body .content .section .contact h2, #body .content .section .booking h2 {
+	padding: 0 0 29px;
+}
+#body .content .section .contact form {
+	margin: 0;
+	padding: 24px 0 0;
+}
+#body .content .section .contact form label span {
+	color: #7a7a7a;
+	display: block;
+	  
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0;
+	text-transform: capitalize;
+}
+#body .content .section .contact form input {
+	background: url(../images/interface.png) no-repeat 0 -353px;
+	border: 0;
+	color: #7a7a7a;
+	display: block;
+	  
+	font-size: 13px;
+	font-weight: normal;
+	height: 24px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 5px;
+	width: 331px;
+}
+#body .content .section .contact form #send {
+	background-position: -453px -440px;
+	height: 31px;
+	margin: 18px 0 0;
+	padding: 0;
+	width: 164px;
+}
+#body .content .section .contact form #send:hover {
+	background-position: -407px -531px;
+}
+#body .content .section .contact form textarea {
+	background: url(../images/interface.png) no-repeat 0 -179px;
+	border: 0;
+	color: #7a7a7a;
+	height: 159px;
+	margin: 0;
+	overflow: auto;
+	padding: 5px;
+	width: 408px;
+}
+#body .content .section .booking form {
+	margin: 0;
+	padding: 0 0 25px;
+}
+#body .content .section .booking form h4 {
+	color: #7a7a7a;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 25px 0 5px;
+	text-transform: capitalize;
+}
+#body .content .section .booking form label, #body .content .section .booking form input, #body .content .section .booking form span, #body .content .section .booking form textarea, #body .content .section .booking form select {
+	color: #7a7a7a;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	   
+}
+#body .content .section .booking form span {
+	line-height: 24px;
+	padding: 10px 0 5px;
+	text-transform: capitalize;
+}
+#body .content .section .booking form input {
+	background: url(../images/interface.png) no-repeat;
+	border: 0;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 5px;
+}
+#body .content .section .booking form div {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body .content .section .booking form div div {
+	float: left;
+	min-height: 37px;
+	width: 260px;
+}
+#body .content .section .booking form label {
+	float: left;
+}
+#body .content .section .booking .form1 input {
+	background-position: 0 -382px;
+	width: 250px;
+}
+#body .content .section .booking .form2 div input {
+	background-position: -277px -382px;
+	width: 110px;
+}
+#body .content .section .booking form #confirm2 {
+	width: 260px;
+}
+#body .content .section .booking form #confirm2 span {
+	padding: 49px 0 5px;
+}
+#body .content .section .booking form #confirm {
+	background-position: 0 -382px;
+	width: 250px;
+}
+#body .content .section .booking form #city, #body .content .section .booking form #state {
+	background: url(../images/interface.png) no-repeat -277px -382px;
+	border: 0;
+	height: 24px;
+	width: 120px;
+}
+#body .content .section .booking form #schedule {
+	background: url(../images/interface.png) no-repeat 0 -382px;
+	border: 0;
+	height: 24px;
+	width: 260px;
+}
+#body .content .section .booking form textarea {
+	background: url(../images/interface.png) no-repeat -85px -1px;
+	border: 0;
+	height: 158px;
+	overflow: auto;
+	padding: 5px;
+	width: 550px;
+}
+#body .content .section .booking form #fname, #body .content .section .booking form #email3, #body .content .section .booking form #address1, #body .content .section .booking form #address2, #body .content .section .booking .form2 div {
+	margin: 0 40px 0 0;
+}
+#body .content .section .booking form #city, #body .content .section .booking form #brand, #body .content .section .booking form #year {
+	margin: 0 20px 0 0;
+}
+#body .content .section .booking form #send2 {
+	background-position: -453px -440px;
+	height: 31px;
+	margin: 19px 0 0;
+	padding: 0;
+	width: 164px;
+}
+#body .content .section .booking form #send2:hover {
+	background-position: -407px -531px;
+}
+#body .content .sidebar {
+	float: left;
+	margin: 0;
+	padding: 28px 0;
+	width: 300px;
+}
+#body .content .sidebar .navigation {
+	margin: 0 0 10px;
+}
+#body .content .sidebar .navigation ul li a {
+	background: url(../images/bg-sidebar-nav.gif) no-repeat top center;
+	color: #fcac00;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	height: 42px;
+	line-height: 42px;
+	margin: -4px 0 0;
+	padding: 0 40px;
+	text-transform: capitalize;
+	width: 220px;
+}
+
+#body .content .sidebar .navigation ul li.selected a {
+	background: url(../images/bg-sidebar-nav-selected.png) no-repeat left top;
+}
+#body .content .sidebar .navigation ul li a:hover {
+	color: #f3be4b;
+}
+#body .content .sidebar div h3 {
+	color: #7a7a7a;
+	  
+	font-size: 18px;
+	font-weight: normal;
+	height: 60px;
+	line-height: 60px;
+	   
+	text-transform: capitalize;
+}
+#body .content .sidebar .navigation h3 {
+	height: 25px;
+	line-height: 25px;
+	padding: 0 0 10px 39px;
+}
+#body .content .sidebar .post {
+	background: url(../images/bg-sidebar.png) repeat-y;
+	margin: 0 0 24px 18px;
+	width: 266px;
+}
+#body .content .sidebar .post h3 {
+	background: url(../images/bg-sidebar-top.png) no-repeat top left;
+	height: 50px;
+	padding: 0 20px 0 23px;
+}
+#body .content .sidebar .post ul {
+	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
+	padding: 0 23px 10px 21px;
+}
+#body .content .sidebar .post ul li {
+	background: url(../images/bg-sidebar-nav.gif) no-repeat top center;
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+#body .content .sidebar .post ul li a.figure {
+	display: block;
+	float: left;
+	margin: 8px 10px 0 0;
+}
+#body .content .sidebar .post ul li a.figure:hover {
+	opacity: 0.8;
+}
+#body .content .sidebar .post ul li a.figure img {
+	border: 1px solid #dfdfdf;
+	display: block;
+}
+#body .content .sidebar .post ul li div {
+	float: left;
+	width: 162px;
+}
+
+#body .content .sidebar .post ul li div span a {
+	color: #fcac00;
+	line-height: 24px;
+}
+#body .content .sidebar .post ul li div p {
+	color: #7a7a7a;
+	line-height: 24px;}
+
+#body .content .sidebar .contact {
+	background: url(../images/bg-sidebar.png) repeat-y;
+	margin: 0 0 24px 18px;
+	width: 266px;
+}
+#body .content .sidebar .contact div {
+	background: url(../images/bg-sidebar-top.png) no-repeat top left;
+	
+	padding: 20px 0 0 21px;
+}
+#body .content .sidebar .contact div a {
+	display: block;
+}
+#body .content .sidebar .contact div a:hover {
+	opacity: 0.8;
+}
+#body .content .sidebar .contact div img {
+	border: 1px solid #dfdfdf;
+	display: block;
+	padding: 5px;
+}
+#body .content .sidebar .contact h3 {
+	background: url(../images/bg-sidebar-top.png) no-repeat top left;
+	height: 50px;
+	padding: 0 20px 0 23px;
+}
+#body .content .sidebar div h4 {
+	color: #7a7a7a;
+	  
+	font-size: 18px;
+	font-weight: normal;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 0 0 21px;
+	text-transform: capitalize;
+}
+#body .content .sidebar .contact ul {
+	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
+	padding: 0 23px 10px 21px;
+}
+#body .content .sidebar .contact ul li {
+	background: url(../images/bg-sidebar-nav.gif) no-repeat top center;
+	padding: 5px 0;
+}
+
+#body .content .sidebar .contact ul li b {
+	font-weight: normal;
+	text-transform: capitalize;
+}
+#body .content .sidebar .contact ul li b, #body .content .sidebar .contact ul li span {
+	color: #7a7a7a;
+	line-height: 24px;
+}
+
+#body .content .sidebar .contact ul li span a:hover {
+	text-decoration: underline;
+}
+#body .content .sidebar .contact ul li:first-child {
+	overflow: hidden;
+}
+#body .content .sidebar .contact ul li:first-child b {
+	display: block;
+	float: left;
+	width: 52px;
+}
+#body .content .sidebar .contact ul li:first-child span {
+	display: block;
+	float: left;
+	width: 128px;
+}
+#body .content .sidebar .categories, #body .content .sidebar .archives {
+	background: url(../images/bg-sidebar.png) repeat-y;
+	margin: 0 0 24px 18px;
+	width: 266px;
+}
+#body .content .sidebar .categories h3, #body .content .sidebar .archives h3 {
+	background: url(../images/bg-sidebar-top.png) no-repeat top left;
+	height: 50px;
+	padding: 0 20px 0 23px;
+}
+#body .content .sidebar .categories ul, #body .content .sidebar .archives ul {
+	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
+	padding: 0 23px 10px 21px;
+}
+#body .content .sidebar .categories ul li, #body .content .sidebar .archives ul li {
+	background: url(../images/bg-sidebar-nav.gif) no-repeat top center;
+	padding: 10px 0;
+}
+#body .content .sidebar .categories ul li a, #body .content .sidebar .archives ul li a {
+	background: url(../images/icons.png) no-repeat;
+	color: #fcac00;
+	display: block;
+	margin: 0;
+	padding: 0 0 0 21px;
+	text-transform: capitalize;
+}
+
+#body .content .sidebar .categories ul li a {
+	background-position: 0 -150px;
+}
+#body .content .sidebar .archives ul li a {
+	background-position: 0 -172px;
+}
+#body .content .sidebar .featured {
+	background: url(../images/bg-sidebar.png) repeat-y;
+	margin: 0 0 24px 18px;
+	width: 266px;
+}
+#body .content .sidebar .featured h3 {
+	background: url(../images/bg-sidebar-top.png) no-repeat top left;
+	height: 50px;
+	padding: 0 20px 0 23px;
+}
+#body .content .sidebar .featured ul {
+	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
+	padding: 0 23px 10px 21px;
+}
+#body .content .sidebar .featured ul li {
+	background: url(../images/bg-sidebar-nav.gif) no-repeat top center;
+	padding: 10px 0;
+}
+#body .content .sidebar .featured ul li a {
+	color: #fcac00;
+	display: block;
+	text-transform: capitalize;
+}
+#body .content .sidebar .featured ul li a:hover {
+	color: #f3be4b;
+}
+#body .content .sidebar .gallery {
+	background: url(../images/bg-sidebar.png) repeat-y;
+	margin: 0 0 0 18px;
+	width: 266px;
+}
+#body .content .sidebar .gallery h3 {
+	background: url(../images/bg-sidebar-top.png) no-repeat top left;
+	padding: 0 20px 0 23px;
+}
+#body .content .sidebar .gallery a.figure {
+	display: block;
+	margin: 0 0 0 21px;
+	padding: 0;
+}
+#body .content .sidebar .gallery a.figure:hover {
+	opacity: 0.8;
+}
+#body .content .sidebar .gallery a.figure img {
+	border: 1px solid #dfdfdf;
+}
+#body .content .sidebar .gallery span {
+	display: block;
+	padding: 5px 23px 0 21px;
+}
+#body .content .sidebar .gallery span a {
+	color: #fcac00;
+	line-height: 24px;
+
+}
+
+#body .content .sidebar .gallery p {
+	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
+	color: #7a7a7a;
+	line-height: 24px;
+	padding: 0 23px 20px 21px;
+}
+#body .content .sidebar .gallery p a {
+	color: #fcac00;
+}
+#footer {
+	font-family: 'PT_Sans-Web-Regular';
+	font-weight: normal;
+	margin: 0 auto;
+	padding: 0;
+	width: 940px;
+}
+#footer div {
+	background: #7a7a7a;
+	margin: 0;
+	overflow: hidden;
+	padding: 23px 20px;
+}
+#footer > div:first-child {
+	-webkit-box-shadow: 1px 0px 3px rgba(52, 50, 50, 0.5);
+	-moz-box-shadow: 1px 0px 3px rgba(52, 50, 50, 0.5);
+	box-shadow: 1px 0px 3px rgba(52, 50, 50, 0.5);
+}
+#footer div ul {
+	margin: 0;
+	padding: 0;
+}
+#footer div ul li {
+	border-top: 1px solid #9a9a9a;
+	font-size: 13px;
+	list-style: none;
+	margin: 0 0 5px;
+	padding: 5px 0 0;
+}
+#footer div ul li:first-child {
+	border: 0;
+}
+#footer div > div {
+	float: left;
+	margin: 0 0 0 60px;
+	padding: 0;
+	width: 180px;
+}
+#footer div > div:first-child {
+	margin: 0;
+}
+#footer div > div h3 {
+	color: #fff;
+	font-family: 'Lato-Light';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 14px;
+	text-transform: capitalize;
+}
+#footer div .contact ul li b {
+	font-family: 'PT_Sans-Web-Bold';
+	font-weight: normal;
+	text-transform: capitalize;
+}
+#footer div .contact ul li b, #footer div .contact ul li span {
+	color: #fff;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#footer div .contact ul li span a {
+	color: #fcac00;
+	text-decoration: none;
+}
+#footer div .contact ul li span a:hover {
+	color: #f3be4b;
+}
+#footer div .contact ul li:first-child {
+	overflow: hidden;
+}
+#footer div .contact ul li:first-child b {
+	display: block;
+	float: left;
+	width: 52px;
+}
+#footer div .contact ul li:first-child span {
+	display: block;
+	float: left;
+	width: 128px;
+}
+#footer div .tweets ul li a {
+	color: #fff;
+	display: block;
+	line-height: 24px;
+	text-decoration: none;
+}
+#footer div .tweets ul li a:hover {
+	color: #fcac00;
+}
+#footer div .tweets ul li a span {
+	color: #fcac00;
+	display: block;
+}
+#footer div .tweets ul li a:hover span {
+	color: #f3be4b;
+}
+#footer div .posts ul li a {
+	color: #fcac00;
+	display: block;
+	line-height: 24px;
+	text-decoration: none;
+}
+#footer div .posts ul li a:hover {
+	color: #f3be4b;
+}
+#footer div .connect p {
+	color: #fff;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#footer div .connect p a {
+	color: #fcac00;
+}
+#footer div .connect p a:hover {
+	color: #f3be4b;
+}
+#footer div .connect ul {
+	overflow: hidden;
+	padding: 10px 0 0;
+}
+#footer div .connect ul li {
+	border: 0;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#footer div .connect ul li a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 36px;
+}
+#footer div .connect ul #facebook a {
+	background-position: 0 0;
+}
+#footer div .connect ul #facebook a:hover {
+	background-position: -41px 0;
+}
+#footer div .connect ul #twitter a {
+	background-position: 0 -42px;
+}
+#footer div .connect ul #twitter a:hover {
+	background-position: -41px -42px;
+}
+#footer div .connect ul #googleplus a {
+	background-position: 0 -84px;
+}
+#footer div .connect ul #googleplus a:hover {
+	background-position: -41px -84px;
+}
+#footer .section {
+	background: none;
+	padding: 10px 0;
+}
+#footer .section p {
+	color: #fff;
+	float: left;
+	font-size: 11px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+#footer .section ul {
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#footer .section ul li {
+	background: url(../images/separator.png) no-repeat left center;
+	border: 0;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#footer .section ul li:first-child {
+	background: none;
+}
+#footer .section ul li a {
+	color: #fff;
+	display: block;
+	font-size: 11px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 8px 0 12px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#footer .section ul li a:hover {
+	text-decoration: underline;
+}
